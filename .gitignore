@@ -1,0 +1,33 @@
+.venv/
+.env
+__pycache__/
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Frontend
+node_modules/
+dist/
+
+# Local data and model files
+.deepface/
+*.h5
+*.pt
+*.pth
+*.onnx
+*.dump
+*.backup
+*.log
+
+# Editor and operating system
+.vscode/
+.DS_Store
+Thumbs.db
